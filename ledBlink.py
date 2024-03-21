@@ -12,3 +12,5 @@ Try:
    sleep(1)
    GPIO.output(18, False) 
    sleep(1)
+finally:
+   GPIO.cleanup()
